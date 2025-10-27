@@ -34,7 +34,7 @@ void main() {
   print(badResult); // Output: 12345 (vì không khớp regex)
 }
 ```
-<iframe src="https://dartpad.dev/?id=b4dde15e880b37782fbfb30ebb33d500?theme=light"></iframe>
+<iframe style="width: 100%; height: 500px" src="https://dartpad.dev/?id=b4dde15e880b37782fbfb30ebb33d500?theme=light"></iframe>
 
 ```run-dartpad:id=[b4dde15e880b37782fbfb30ebb33d500]:mode-flutter
 ```
