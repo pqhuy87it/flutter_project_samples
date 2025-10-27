@@ -36,5 +36,5 @@ void main() {
 ```
 <iframe src="https://dartpad.dev/?id=b4dde15e880b37782fbfb30ebb33d500?theme=light"></iframe>
 
-```run-dartpad:id=b4dde15e880b37782fbfb30ebb33d500:mode-flutter
+```run-dartpad:id=[b4dde15e880b37782fbfb30ebb33d500]:mode-flutter
 ```
