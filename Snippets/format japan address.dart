@@ -32,3 +32,5 @@ void main() {
   String badResult = formatNumber(badInput);
   print(badResult); // Output: 12345 (vì không khớp regex)
 }
+
+<iframe src="https://dartpad.dev/?id=5c0e154dd50af4a9ac856908061291bc?theme=light"></iframe>
