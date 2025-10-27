@@ -1,3 +1,4 @@
+```dart
 String formatNumber(String input) {
   // 1. Tạo một đối tượng RegExp
   // ^    : Bắt đầu chuỗi
@@ -32,5 +33,5 @@ void main() {
   String badResult = formatNumber(badInput);
   print(badResult); // Output: 12345 (vì không khớp regex)
 }
-
+```
 <iframe src="https://dartpad.dev/?id=b4dde15e880b37782fbfb30ebb33d500?theme=light"></iframe>
