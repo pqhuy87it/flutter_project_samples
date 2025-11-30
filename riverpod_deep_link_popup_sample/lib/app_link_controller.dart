@@ -8,7 +8,6 @@ import 'navigation_service.dart';
 final appLinkControllerProvider = Provider<void>((ref) {
   final repo = ref.watch(appLinkRepositoryProvider);
   final navService = ref.watch(navigationServiceProvider);
-  final screenENotifier = ref.watch(screenEProvider.notifier);
 
   // Lắng nghe Stream
   repo.uriStream.listen((uri) {

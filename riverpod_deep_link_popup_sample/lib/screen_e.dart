@@ -2,10 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'base_screen.dart';
 
-final screenEProvider = StateNotifierProvider<ScreenENotifier, ScreenEState>((ref) {
-  return ScreenENotifier();
-});
-
 // Dùng Freezed hoặc Equatable để so sánh state (Ở đây code chay cho đơn giản)
 abstract class ScreenEEvent {}
 
@@ -40,20 +36,6 @@ class ScreenEController extends StateNotifier<ScreenEEvent> {
 
     // Reset state sau khi xong (nếu cần)
     state = InitialEvent();
-  }
-}
-
-class ScreenEState {
-  final String data;
-  ScreenEState(this.data);
-}
-
-class ScreenENotifier extends StateNotifier<ScreenEState> {
-  ScreenENotifier() : super(ScreenEState("Chưa có dữ liệu"));
-
-  // Hàm này sẽ được gọi khi nhận DeepLink và đang ở màn E
-  void updateData(String newData) {
-    state = ScreenEState(newData);
   }
 }
 
